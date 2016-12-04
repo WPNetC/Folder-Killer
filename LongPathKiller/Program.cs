@@ -16,7 +16,9 @@ namespace LongPathKiller
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            var x = Application.ProductVersion;
 
+            // I added this comment
             Application.Run(new Form1());
         }
     }
